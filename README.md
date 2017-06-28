@@ -4,7 +4,7 @@ This is a sample app
 
 #getting started
 $ bundle install --without production
-
+#THIS IS JUST COPY FROM NET> I HOLD NO COPYRIGHTS
 
 #News today
 The date is 20.6.2017 Metric
