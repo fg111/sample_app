@@ -1,9 +1,9 @@
 Rails.application.routes.draw do
   get 'users/new'
 
-  #get 'foo/bar'
+  get 'foo/bar'
 
-  #get 'foo/baz'
+  get 'foo/baz'
  root 'static_pages#home'
   get  'static_pages/home', to: 'static_pages#home'
   get  'static_pages/help',    to: 'static_pages#help'
