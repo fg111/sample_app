@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'users/new'
+
   get 'foo/bar'
 
   get 'foo/baz'
@@ -8,6 +10,6 @@ Rails.application.routes.draw do
   get 'static_pages/help'
   get 'static_pages/about'
   get 'static_pages/contact'
-
+  get  '/signup',  to: 'users#new'
  
 end
